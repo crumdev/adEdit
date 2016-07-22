@@ -1,12 +1,18 @@
-﻿Param ( 
-    [string]$adminUser = $env:username, 
-    [string]$adminPass, 
-    [string]$csv, 
-    [switch]$h = $false
-)
+﻿<#
+    .SYNOPSIS
+        Synopsis goes here
 
-if ($h) {
-Write-Host("Help Text")
-} else {
-    Write-Host("Not working")
+    .DESCRIPTION
+        Synopsis goes here
+
+    .LINK
+        git@github.com:n-crum/adEdit.git
+        https://github.com/n-crum/adEdit.git
+
+#>
+
+
+
+function test (){
+write-Host "Hello World"
 }
